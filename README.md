@@ -23,6 +23,10 @@ Alternatively, you can import individual functions:
 import revv, { exists, read, copy, tidy } from 'revv';
 ```
 
+## Looking for a [CLI](https://github.com/nicholaswyoung/revv-cli)?
+
+Just use `npm i -g revv-cli`.
+
 ## License
 
 &copy; 2016 Nicholas Young, released under the 3-Clause-BSD License. For further
