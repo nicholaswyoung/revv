@@ -1,0 +1,12 @@
+.DS_Store
+.env
+*.log
+*.txt
+*.swp
+*.swo
+*.gz
+*.tar
+*.tar.gz
+node_modules/
+lib/
+support/*-*
