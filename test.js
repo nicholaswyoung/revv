@@ -1,7 +1,8 @@
 import test from 'ava';
 import cp from 'cp-file';
 import del from 'del';
-import revv, { read, copy, tidy, exists } from './src';
+import revv from './src';
+import { read, copy, tidy, exists } from './src/actions';
 
 test.beforeEach(async t => {
 	await cp('support/logo.svg', 'support/one.tmp.svg');
