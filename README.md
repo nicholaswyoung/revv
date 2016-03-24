@@ -17,10 +17,10 @@ import revv from 'revv';
 revv('<glob|path>').then(revved => {});
 ```
 
-Alternatively, you can import individual functions:
+Alternatively, you can import individual actions:
 
 ```javascript
-import revv, { exists, read, copy, tidy } from 'revv';
+import { exists, read, copy, tidy } from 'revv/actions';
 ```
 
 ## Looking for a [CLI](https://github.com/nicholaswyoung/revv-cli)?
