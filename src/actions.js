@@ -35,3 +35,7 @@ export function tidy(file) {
 	}
 	return del(file.original).then(() => file);
 }
+
+export function manifest(paths) {
+	return paths;
+}
