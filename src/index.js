@@ -24,5 +24,9 @@ export default function revv(paths, options = {}) {
 		chain = chain.then(map(actions.tidy));
 	}
 
+	if (manifest) {
+		chain = chain.then(actions.manifest);
+	}
+
 	return chain;
 }
