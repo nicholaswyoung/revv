@@ -1,6 +1,8 @@
 # revv
 
-Version static assets.
+![CI Status](https://api.travis-ci.org/nicholaswyoung/revv.svg?branch=master)
+
+A simple, modular JavaScript tool for versioning static assets.
 
 ## Install
 
@@ -12,8 +14,13 @@ npm install revv --save
 
 ```javascript
 import revv from 'revv';
+revv('<glob|path>').then(revved => {});
+```
 
-revv('<glob|path>');
+Alternatively, you can import individual functions:
+
+```javascript
+import revv, { exists, read, copy, tidy } from 'revv';
 ```
 
 ## License
