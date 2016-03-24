@@ -9,4 +9,5 @@
 *.tar.gz
 node_modules/
 lib/
+support/*.tmp.*
 support/*-*
