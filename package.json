@@ -1,6 +1,6 @@
 {
   "name": "revv",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Version static assets via your command line.",
   "main": "lib/index.js",
   "jsnext:main": "src/index.js",
