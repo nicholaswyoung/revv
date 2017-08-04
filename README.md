@@ -1,5 +1,7 @@
 # revv
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/nicholaswyoung/revv.svg)](https://greenkeeper.io/)
+
 ![CI Status](https://api.travis-ci.org/nicholaswyoung/revv.svg?branch=master)
 
 A simple, modular JavaScript tool for versioning static assets.
